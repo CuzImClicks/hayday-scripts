@@ -1,14 +1,12 @@
 
 class Crop:
 
-    def __init__(name: str, time: float, sell: float):
+    def __init__(self, name: str, time: float, sell: float):
         self.name = name
         self.time = time
         self.sell = sell
 
         self.sellPerMinute = sell / time
 
-    def getSellPerMinute() -> float:
-        return self.sellPerMinute
-
-diff --git a/main.py b/main.py
+    def getSellPerMinute(self) -> float:
+        return f"{self.name}: {self.sellPerMinute}"
