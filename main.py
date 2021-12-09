@@ -16,6 +16,6 @@ if __name__ == "__main__":
     array.append(sugar_cane.toDict())
     array.append(indigo.toDict())
 
-    array = wheat.sort(array, "time")
+    array = wheat.sort(array, "name")
     for i in range(0, len(array)):
-        print(array[i]["sellPerMinute"])
+        print(array[i]["name"] + " - " + array[i]["sellPerMinute"])
