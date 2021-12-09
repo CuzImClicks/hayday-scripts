@@ -17,12 +17,3 @@ if __name__ == "__main__":
     array.append(indigo.toDict())
 
     Crop.sort(array)
-
-    return
-    print(wheat.getSellPerMinute())
-    print(mais.getSellPerMinute())
-    print(carrot.getSellPerMinute())
-    print(soy.getSellPerMinute())
-    print(sugar_cane.getSellPerMinute())
-    print(indigo.getSellPerMinute())
-
