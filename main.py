@@ -8,9 +8,21 @@ if __name__ == "__main__":
     sugar_cane= Crop("sugar cane", 30, 14)
     indigo = Crop("indigo", 120, 25)
 
+    array = []
+    array.append(wheat.toDict())
+    array.append(mais.toDict())
+    array.append(carrot.toDict())
+    array.append(soy.toDict())
+    array.append(sugar_cane.toDict())
+    array.append(indigo.toDict())
+
+    Crop.sort(array)
+
+    return
     print(wheat.getSellPerMinute())
-    print(soy.getSellPerMinute())
     print(mais.getSellPerMinute())
-    print(sugar_cane.getSellPerMinute())
     print(carrot.getSellPerMinute())
+    print(soy.getSellPerMinute())
+    print(sugar_cane.getSellPerMinute())
     print(indigo.getSellPerMinute())
+

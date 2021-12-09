@@ -10,3 +10,10 @@ class Crop:
 
     def getSellPerMinute(self) -> float:
         return f"{self.name}: {self.sellPerMinute}"
+
+    def toDict() -> dict:
+        return {"name": self.name, "time": self.time, "sell": self.sell, "sellPerMinute": self.sellPerMinute}
+
+    @classmethod
+    def sort(dictionary: array, value) -> dict:
+        return sorted(array, lambda item: item[value])
