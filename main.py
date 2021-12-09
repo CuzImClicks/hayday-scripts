@@ -18,4 +18,4 @@ if __name__ == "__main__":
 
     array = wheat.sort(array, "name")
     for i in range(0, len(array)):
-        print(array[i]["name"] + " - " + array[i]["sellPerMinute"])
+        print(array[i]["name"] + " - " + str(array[i]["sellPerMinute"]))
