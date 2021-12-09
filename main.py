@@ -16,4 +16,4 @@ if __name__ == "__main__":
     array.append(sugar_cane.toDict())
     array.append(indigo.toDict())
 
-    Crop.sort(array, "sell")
+    wheat.sort(array, "sell")
