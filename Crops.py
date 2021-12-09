@@ -15,5 +15,5 @@ class Crop:
         return {"name": self.name, "time": self.time, "sell": self.sell, "sellPerMinute": self.sellPerMinute}
 
     @classmethod
-    def sort(dictionary: array, value) -> dict:
+    def sort(array: list, value) -> dict:
         return sorted(array, lambda item: item[value])
