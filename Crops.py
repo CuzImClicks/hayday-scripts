@@ -16,4 +16,4 @@ class Crop:
 
     @classmethod
     def sort(cls, array: list, value) -> dict:
-        return sorted(array, lambda item: item[value])
+        return sorted(object = array, key = lambda item: item[value])
