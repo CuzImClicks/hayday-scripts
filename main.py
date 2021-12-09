@@ -18,7 +18,7 @@ if __name__ == "__main__":
     array.append(indigo.toDict())
     array.append(pumpkin.toDict())
     
-    value = "time"
+    value = "sellPerMinute"
 
     array = wheat.sort(array, value)
     for i in range(0, len(array)):
