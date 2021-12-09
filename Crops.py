@@ -11,7 +11,7 @@ class Crop:
     def getSellPerMinute(self) -> float:
         return f"{self.name}: {self.sellPerMinute}"
 
-    def toDict() -> dict:
+    def toDict(self) -> dict:
         return {"name": self.name, "time": self.time, "sell": self.sell, "sellPerMinute": self.sellPerMinute}
 
     @classmethod
